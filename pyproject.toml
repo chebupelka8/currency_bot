@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bot"
+version = "0.1.0"
+description = ""
+authors = ["chebupelka8 <stpzamyatin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.6.0"
+colorama = "^0.4.6"
+bs4 = "^0.0.2"
+lxml = "^5.2.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
