@@ -35,8 +35,8 @@ async def start(message: types.Message):
 @dp.message()
 async def load(message: types.Message):
     if message.text is not None:
-        print("st")
-        if message.text.upper() not in get_currencies_name():
+        print(message.text)
+        if message.text.upper() in get_currencies_name():
             await message.answer(load_currency(get_currency_soup(message.text.upper())))
     
     return
